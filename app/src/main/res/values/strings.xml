@@ -1,0 +1,155 @@
+﻿<resources>
+    <string name="app_name">jiyoFit - Debug</string>
+    <string name="facebook_app_id">1551980535105114</string>
+    <string name="clevertap_account_id">TEST–7KZ–749–964Z</string>
+    <string name="clevertap_account_token">TEST-c4a-13a</string>
+    <string name="senderID">id:29775915338</string>
+    <string name="afirst_t1">vius ikl rksfy;k vkSj ikuh jf[k;s</string>
+    <string name="afirst_t2pre">yach lkl ysdj]</string>
+    <string name="afirst_t2post">nckdj] dljr \'kq: dhft;s</string>
+    <string name="afirst_start">START</string>
+    <string name="aworkout_str_over">vktdk odkZSV [kre gqvk</string>
+    <string name="ffeedback_leaveworkout">odkZSV NksMks</string>
+    <string name="alogin_disclaimer"> vLohdj.k</string>
+    <string name="alogin_agree1">eSaus i</string>
+    <string name="alogin_agree2">k vkSj le</string>
+    <string name="alogin_agree3">k ;g </string>
+    <string name="alogin_toast">vkxs tkusds fy;s psdckWDl fVd djs</string>
+    <string name="fdisclaimer_1">1- ;fn laHko gk rks lqj{kk ds fy;s bl ,Iyhds’ku bLreky djusls igys MkDVj ;k Vªsuj dk jk; vkSj lykg fyft;s A</string>
+    <string name="fdisclaimer_2">2- vki ;g ,Iyhds’ku }kjk fn[kk;s x;s O;k;kedks vius tksf[ke ij dj jgs gks A</string>
+    <string name="fdisclaimer_3">3- vxj vkidks bl ,Iyhds’ku esa gn[kk;s x;s O;k;ke djrs le; ;k djus ls pksV yxrh gS ;k dksb ijs’kkuh gksrh gS rks bLdsfy;s ;g ,Iyhds’ku cukusokys ftEesnkj ugh gSa A</string>
+    <string name="fdisclaimer_4">4- vxj vkidks dljr djrs le; dksb ijs’kkuh gksrh gS rks rqjar MkDVjds ikl tkbZ;s A</string>
+    <string name="fdisclaimer_5">5- ;g  ekuk tk;sxk fd tc vki ;g ,Iyhds’ku bLreky djrs le; lkjs tksf[ke le>rs gSa A</string>
+    <string name="networkunavailable">—I;k ok;Qk; ;k baVuZsVds usVodZesa vkbZ;s</string>
+    <string name="ffeedback_title">QhMcsd</string>
+    <string name="submit">lfCeV</string>
+    <string name="cancel">dsuly</string>
+    <string name="ffeedback_thanks">/kU;okn A vkids QhMcsdds enrls ;g ,Iyhds’ku vkSj cgrj cuk;saxs A</string>
+    <string name="ffeedback_like">vkidks bl ,Iyhds’kudh D;k ckrsa ilan gSa\\</string>
+    <string name="ffeedback_suggestion">dksulk vkSj Qhpj vki pkgrs gSa ,Iyhds\'ku esa jgs\\</string>
+    <string name="target">y{;% </string>
+    <string name="steps">dne</string>
+    <string name="amain_feedback">QhMcSd</string>
+    <string name="amain_setting">lsfVax</string>
+    <string name="amain_history">O;frr odkSZV</string>
+    <string name="amain_workout">odkSZV</string>
+    <string name="date">fnukad% </string>
+    <string name="ahistory_noapp">;g ,Iyhds’ku bl fnu rd baLVkWy ugh dh;k Fkk A</string>
+    <string name="ahistory_completion">odkSZV iqjk dh;k%</string>
+    <string name="yes">gka</string>
+    <string name="no">ugh</string>
+    <string name="ahistory_future">future</string>
+    <string name="loading">yksfMax + + +</string>
+    <string name="bmi">BMI:</string>
+    <string name="asettings_height">mapkb%</string>
+    <string name="weight">otu</string>
+    <string name="age">mej</string>
+    <string name="unit_kg"> fdyks</string>
+    <string name="unit_year">lky</string>
+    <string name="suggestion">lq>o</string>
+    <string-array name="menu">
+        <item>gkse</item>
+        <item>odkSZV</item>
+        <item>MkbV</item>
+        <item>O;frr odkSZV</item>
+        <item>LokLF; LVksj</item>
+        <item>lsfVaXl</item>
+        <item>QhMcSd</item>
+    </string-array>
+    <string-array name="activity_names">
+        <item>MainActivity</item>
+        <item>WorkoutActivity</item>
+        <item>DietActivity</item>
+        <item>HistoryActivity</item>
+        <item>AffiliateActivity</item>
+        <item>SettingsActivity</item>
+        <item>FeedbackFragment</item>
+    </string-array>
+    <string-array name="feet">
+        <item>Feet</item>
+        <item>4 ft.</item>
+        <item>5 ft.</item>
+        <item>6 ft.</item>
+    </string-array>
+    <string-array name="inches">
+        <item>Inches</item>
+        <item>0 in.</item>
+        <item>1 in.</item>
+        <item>2 in.</item>
+        <item>3 in.</item>
+        <item>4 in.</item>
+        <item>5 in.</item>
+        <item>6 in.</item>
+        <item>7 in.</item>
+        <item>8 in.</item>
+        <item>9 in.</item>
+        <item>10 in.</item>
+        <item>11 in.</item>
+    </string-array>
+    <string-array name="workouttype">
+        <item>iqjk \'kjhj</item>
+        <item>iqjk \'kjhj</item>
+        <item>otu ?kVkuk</item>
+        <item>elYl cMk djuk</item>
+    </string-array>
+    <string-array name="categories">
+        <item>flQkfj\'k</item>
+        <item>flQkfj\'k</item>
+        <item>lfIyesaV</item>
+        <item>iks\"k.k</item>
+        <item>fQVusl midj.k</item>
+        <item>vkRe ijofj\'k</item>
+    </string-array>
+    <string-array name="categoriesMapper">
+        <item>recommended</item>
+        <item>recommended</item>
+        <item>supplement</item>
+        <item>nutrition</item>
+        <item>equipment</item>
+        <item>personal care</item>
+    </string-array>
+
+    <string name="opendrawer">Open</string>
+    <string name="closedrawer">Close</string>
+    <string name="alogin_trylater">usVodZesa vkbZ;s vkSj FkksMs nsjesa fQlsZ dksf’k’k dhft;s</string>
+    <string name="dataTomorrow">vktdk MkVk dy fn[kk;k tk;sxk A</string>
+    <string name="exercise">dljr</string>
+    <string name="unit_minute">feuV</string>
+    <string name="walkreminder">okWd dk fjeSUMj%</string>
+    <string name="asettings_maxage">vkidh mej 70 ls de gksuh pkfg;s</string>
+    <string name="asettings_minage">vkidh mej 12 ls tknk gksuh pkfg;s</string>
+    <string name="asettings_maxweight">vkidk otu 150 fdyks ls de gksuk pkfg;s</string>
+    <string name="asettings_minweight">vkidk otu 40 fdyks ls tknk gksuk pkfg;s</string>
+    <string name="asettings_fillformrequest">vkxs tkusls igys QkWeZ Hkjs</string>
+    <string name="more">tknk</string>
+    <string name="increase"><![CDATA[c<kuk pkfg;s]]></string>
+    <string name="proper">lgh gS</string>
+    <string name="fat">pchZ%</string>
+    <string name="underfat">vkSj pchZ pkfg;s</string>
+    <string name="fit">vki fQV gks</string>
+    <string name="shouldbe">gksuk pkfg;s</string>
+    <string name="healthy">FkksMk tknk gS</string>
+    <string name="overweight">O;k;ke vkSj [kkus ij fu;a=.k vR;ko\';d gS</string>
+    <string name="obese">vkidks xaHkhj [krjk g ân;jksx] e/kqesg gksusdk</string>
+    <string name="unit_percent"> çfr\'kr</string>
+    <string name="minimumSteps">dels de 1500 dk y{; jf[k;</string>
+    <string name="dumbbell">fte tkrs gks ;k Maccsy gS%</string>
+    <string name="reco"><![CDATA[lq>ko]]></string>
+    <string name="thanks">/kU;okn</string>
+    <string name="walkrempre">y{; dks iwjk djus ds fy, vkSj</string>
+    <string name="walkrempost">dne pyus dh t:jr gS A</string>
+    <string name="fcategory_select">Category: </string>
+    <string name="walkNotificationTitle">okWd dk fjeSuMj</string>
+    <string name="congratulations">c/kkbZ gks !</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="aworkout_incomplete">odkSZV iqjk ugh fd;k</string>
+    <string name="aworkout_incompleteTitle">odkSZV [kre</string>
+    <string name="ffeedback_phonenumber">eksckbZy uEcj%</string>
+    <string name="ffeedback_nofeedback">vkius dqN QhMcSd ugh fn;k</string>
+    <string name="ffeedback_incompletemobile">eksckbZy uEcj iqjk ugh fn;k</string>
+    <string name="fsocial_message">eslst%</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="fsocial_nomessage">dqN eslst fyf[k;</string>
+    <string name="facebook">Facebook</string>
+
+</resources>

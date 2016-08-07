@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/ffeedback_tv_like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/ffeedback_like"
+        android:textSize="22sp"/>
+
+    <EditText
+        android:id="@+id/ffeedback_et_like"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/ffeedback_tv_suggestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/ffeedback_suggestion"
+        android:textSize="22sp"/>
+
+    <EditText
+        android:id="@+id/ffeedback_et_suggestion"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/ffeedback_tv_phonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/ffeedback_phonenumber"
+        android:textSize="22sp"/>
+
+    <EditText
+        android:id="@+id/ffeedback_et_phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:textSize="22sp"/>
+
+</LinearLayout>

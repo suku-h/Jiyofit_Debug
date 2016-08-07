@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/aworkout_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="in.jiyofit.basic_app.WorkoutActivity">
+
+    <TextView
+        android:id="@+id/aworkout_tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="27sp"
+        android:textColor="@color/black"
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="3dp"/>
+
+    <TextView
+        android:id="@+id/aworkout_tv_totaltimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="3dp"/>
+
+    <TextView
+        android:id="@+id/aworkout_tv_target"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="23sp"
+        android:paddingBottom="3dp"/>
+
+    <com.github.lzyzsd.circleprogress.DonutProgress
+        android:id="@+id/aworkout_dp_timer"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        app:donut_text_size="35sp" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/aworkout_gv"
+        android:layout_below="@id/aworkout_tv_name"
+        android:layout_above="@id/aworkout_tv_totaltimer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

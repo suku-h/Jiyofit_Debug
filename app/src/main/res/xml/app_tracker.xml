@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="ga_sessionTimeout">300</integer>
+    <bool name="ga_autoActivityTracking">true</bool>
+    <string name="ga_trackingId">UA-78189517-1</string>
+    <string name="ga_sampleFrequency">100.0</string>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+    <screenName name="in.jiyofit.basic_app.activity.FirstActivity">FirstActivity</screenName>
+    <screenName name="in.jiyofit.basic_app.activity.WorkoutActivity">WorkoutActivity</screenName>
+    <screenName name="in.jiyofit.basic_app.activity.LoginActivity">LoginActivity</screenName>
+    <screenName name="in.jiyofit.basic_app.activity.FacebookActivity">WorkoutActivity</screenName>
+    <screenName name="in.jiyofit.basic_app.activity.AutoLoginActivity">AutoLoginActivity</screenName>
+    <screenName name="in.jiyofit.basic_app.activity.MainActivity">MainActivity</screenName>
+    <screenName name="in.jiyofit.basic_app.activity.HistoryActivity">HistoryActivity</screenName>
+    <screenName name="in.jiyofit.basic_app.activity.AffiliateActivity">AffiliateActivity</screenName>
+    <screenName name="in.jiyofit.basic_app.activity.SettingsActivity">SettingsActivity</screenName>
+    <screenName name="in.jiyofit.basic_app.FirstActivity">FirstActivity</screenName>
+    <screenName name="in.jiyofit.basic_app.WorkoutActivity">WorkoutActivity</screenName>
+    <screenName name="in.jiyofit.basic_app.LoginActivity">LoginActivity</screenName>
+    <screenName name="com.facebook.FacebookActivity">FacebookActivity</screenName>
+    <screenName name="in.jiyofit.basic_app.AutoLoginActivity">AutoLoginActivity</screenName>
+    <screenName name="in.jiyofit.basic_app.MainActivity">MainActivity</screenName>
+    <screenName name="in.jiyofit.basic_app.HistoryActivity">HistoryActivity</screenName>
+    <screenName name="in.jiyofit.basic_app.AffiliateActivity">AffiliateActivity</screenName>
+    <screenName name="in.jiyofit.basic_app.SettingsActivity">SettingsActivity</screenName>
+    <screenName name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity">SignInHubActivity</screenName>
+</resources>

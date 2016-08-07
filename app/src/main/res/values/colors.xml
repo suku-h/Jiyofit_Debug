@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c4bd9f</color>
+    <color name="colorPrimaryDark">#ada379</color>
+    <color name="colorAccent">#3300ff</color>
+    <color name="positive">#1db56c</color>
+    <color name="negative">#ff3a2b</color>
+    <color name="white">#FFFFFF</color>
+    <color name="translucentWhite">#95ffffff</color>
+    <color name="translucentPrimary">#80c23f27</color>
+    <color name="black">#000000</color>
+    <color name="lightNegative">#80ff3a2b</color>
+    <color name="lightPositive">#801db56c</color>
+    <color name="lightBlue">#800000ff</color>
+    <color name="lightYellow">#80ffff00</color>
+    <color name="transparent">#00000000</color>
+    <color name="backgroundContrastTextColor">#4C4A4A</color>
+    <color name="colorDrawer">#fdf6f5</color>
+    <color name="colorDrawerText">#421D16</color>
+    <color name="foodColor">#FDC028</color>
+</resources>

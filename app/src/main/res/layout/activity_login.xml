@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/alogin_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="in.jiyofit.basic_app.LoginActivity">
+
+    <ImageView
+        android:id="@+id/alogin_iv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/logo_image"
+        android:layout_centerHorizontal="true"/>
+
+    <FrameLayout
+        android:id="@+id/overlaycontainer"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:visibility="gone"
+        android:background="@drawable/shadow_background" />
+
+    <TextView
+        android:id="@+id/alogin_tv_appname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alogin_iv_logo"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:id="@+id/alogin_ll_disclaimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/alogin_tv_appname"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true">
+
+        <CheckBox
+            android:id="@+id/alogin_cb_disclaimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/alogin_tv_agree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23sp"/>
+
+        <TextView
+            android:id="@+id/alogin_tv_disclaimer"
+            android:onClick="launchDisclaimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23sp"
+            android:textColor="@color/colorAccent"
+            android:clickable="true" />
+
+    </LinearLayout>
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/alogin_btn_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/alogin_ll_disclaimer"/>
+
+    <Button
+        android:id="@+id/alogin_btn_fbdisabled"
+        android:onClick="cbNotClickedMsg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#00000000"
+        android:layout_below="@id/alogin_ll_disclaimer"/>
+
+</RelativeLayout>
